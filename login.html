@@ -1,0 +1,23 @@
+<!-- Modal -->
+	
+		<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width: 600px; background-image: linear-gradient(red, black)">
+			<div class="w3-center"><br>
+				<span onclick="document.getElementById('modal').style.display='none'" class="w3-button w3-xlarge w3-hover-black w3-display-topright" title="Close Modal">&times;</span>
+				<img src="avatar.png" alt="image" style="width: 30%" class="w3-circle w3-margin-top">
+			</div>
+
+			<form class="w3-container" action="#">
+				<div class="w3-section">
+					<label class="w3-text-white"><b>Username</b></label>
+
+					<input type="text" name="username" class="w3-input w3-border w3-round-large w3-margin-bottom" placeholder="Masukkan Username" required>
+
+					<label class="w3-text-white"><b>Password</b></label>
+
+					<input type="password" name="password" class="w3-input w3-border w3-round-large" placeholder="Masukkan Password" required>
+
+					<button class="w3-button w3-round-large w3-block w3-text-white w3-section w3-padding" style="background-image: linear-gradient(green, black)" type="submit">Login</button>
+					<button onclick="document.getElementById('modal').style.display='none'" type="button" style="background-image: linear-gradient(red, black)" class="w3-button w3-text-white w3-round-large">Cancel</button>
+				</div>
+			</form>
+		</div>
